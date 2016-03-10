@@ -1,0 +1,25 @@
+.o-load {
+  background: url("../img/Rightpoint.svg") no-repeat;
+  height: 100px;
+  width: 100px;
+  animation: loadSpin 2s cubic-bezier(.46,-.4,.2,1.51) infinite both;
+}
+.middle {
+  width: 100px;
+  margin: 50px auto;
+}
+
+@keyframes loadSpin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+   -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+    transform: rotate(720deg);
+  }
+}
